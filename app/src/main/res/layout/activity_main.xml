@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getThumbnail"
+        android:id="@+id/thumbnail"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getOriginalPictures"
+        android:id="@+id/origin"
+        android:layout_below="@+id/thumbnail"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CalculateSampleSize"
+        android:id="@+id/inSampleSize"
+        android:layout_below="@+id/origin"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate SHA-256"
+        android:id="@+id/sha"
+        android:layout_below="@+id/inSampleSize"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+</RelativeLayout>
